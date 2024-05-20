@@ -6,3 +6,34 @@
 }
 
 /* style */
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3ebeb;
+    display: flex;
+}
+
+.content {
+    padding: 1.5625rem;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 1.25rem;
+    font-size: 2.375rem;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gold {
+    color: rgb(193, 167, 19);
+}

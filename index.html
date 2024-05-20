@@ -7,8 +7,20 @@
     <title>Vue Hello</title>
 </head>
 <body>
-    
+    <main>
+        <div id="app" class="content">
+            <!-- modifico con vuejs -->
+            <h1 :class="color">{{ message }}</h1>
+            <img :src="image" :alt="descrizione">
+            <!-- /modifico con vuejs -->
+        </div>
+    </main>
 
+
+    
+    <!-- VUE JS -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- /VUE JS -->
     <!-- FILE JS -->
     <script type="text/javascript" src="./main.js"></script>
     <!-- /FILE JS -->
